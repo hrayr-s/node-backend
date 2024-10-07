@@ -1,0 +1,81 @@
+{
+  "info": {
+    "_postman_id": "d2e68458-6060-42ca-90e4-8c5b985747fd",
+    "name": "NestJS intern",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "9731565"
+  },
+  "item": [
+    {
+      "name": "Post User",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"firstName\": \"Hrayr\",\n    \"lastName\": \"Stepanyan\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://127.0.0.1:3000/api/v1/User/",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "v1",
+            "User",
+            ""
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get Users",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"firstName\": \"Hrayr\",\n    \"lastName\": \"Stepanyan\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://127.0.0.1:3000/api/v1/User/",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "v1",
+            "User",
+            ""
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
